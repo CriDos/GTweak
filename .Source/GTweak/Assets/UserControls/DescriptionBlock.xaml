@@ -8,7 +8,24 @@
              mc:Ignorable="d" IsTabStop="False" Focusable="False" KeyboardNavigation.TabNavigation="None" SnapsToDevicePixels="True" UseLayoutRounding="True"
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Margin="10">
-        <ScrollViewer x:Name="Scroller" b:ScrollFadeBehavior.EnableFade="True" Margin="6" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Disabled" ClipToBounds="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border x:Name="ToggleStateLegendPanel" Grid.Row="0" Margin="40,0,40,10" Padding="12,7" Background="{StaticResource Brush_Background_Card}" BorderBrush="{StaticResource Brush_Separator}" BorderThickness="1" CornerRadius="6" Opacity="0.92" Visibility="Collapsed">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Background="{StaticResource Brush_Accent}" CornerRadius="2" Opacity="0.75"/>
+                <TextBlock x:Name="ToggleStateLegend" Grid.Column="1" Style="{StaticResource Description}" Text="{Binding LegendText, RelativeSource={RelativeSource AncestorType=local:DescriptionBlock}}" Foreground="{StaticResource Brush_TextBlock_Inactivity}" FontSize="13px" Margin="10,0,0,0" TextWrapping="Wrap"/>
+            </Grid>
+        </Border>
+
+        <ScrollViewer x:Name="Scroller" Grid.Row="1" b:ScrollFadeBehavior.EnableFade="True" Margin="6" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Disabled" ClipToBounds="True">
             <TextBlock x:Name="FunctionDescription" Style="{StaticResource Description}" Text="{Binding DefaultText, RelativeSource={RelativeSource AncestorType=local:DescriptionBlock}}" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" MaxWidth="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
         </ScrollViewer>
 

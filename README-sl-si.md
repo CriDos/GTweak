@@ -37,6 +37,10 @@
 </div>
 
 ---
+<h2> Različica UX rework</h2>
+
+Ta različica forka naredi GTweak bolj razumljiv, preden uporabiš katerikoli popravek. Logika stikal je predelana tako, da vmesnik prikazuje stanje samega popravka: zeleno pomeni, da je popravek uporabljen, sivo pa, da ni uporabljen. Opisna plošča zdaj posebej razloži pomen za vsak razdelek, na primer storitve, zasebnost, vmesnik ali sistemske nastavitve. Cilj je odstraniti staro dvoumnost, kjer je vklopljeno stikalo lahko pomenilo vklop funkcije Windows ali uporabo popravka, ki to funkcijo izklopi.
+
 <h2> Širok nabor funkcij, vključno s/z: 🔩</h2>
 
 ```java

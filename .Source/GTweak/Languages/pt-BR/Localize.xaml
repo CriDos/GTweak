@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Passe o mouse sobre qualquer ajuste para obter sua descrição</v:String>
     <v:String x:Key="defaultDescriptionApp">Passe o mouse sobre o ícone de qualquer aplicativo para ver seu nome</v:String>
+    <v:String x:Key="toggleStateLegend">Verde: ajuste aplicado. Cinza: ajuste não aplicado.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Verde: ajuste de privacidade aplicado; coleta ou rastreamento bloqueados. Cinza: ajuste não aplicado.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Verde: ajuste de interface aplicado. Cinza: ajuste de interface não aplicado.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Verde: serviços ou tarefas relacionados desativados ou bloqueados. Cinza: serviços ou tarefas ativados ou inalterados.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Verde: ajuste do sistema aplicado. Cinza: ajuste do sistema não aplicado.</v:String>
     <v:String x:Key="btn_default">Padrão</v:String>
     <v:String x:Key="btn_change">Alterar</v:String>
     

@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Vigye az egeret bármelyik módosítás fölé, hogy megkapja a leírását</v:String>
     <v:String x:Key="defaultDescriptionApp">Vigye az egeret bármely alkalmazás ikonja fölé a nevének megtekintéséhez</v:String>
+    <v:String x:Key="toggleStateLegend">Zöld: módosítás alkalmazva. Szürke: módosítás nincs alkalmazva.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Zöld: adatvédelmi módosítás alkalmazva; a gyűjtés vagy követés blokkolva. Szürke: módosítás nincs alkalmazva.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Zöld: felületi módosítás alkalmazva. Szürke: felületi módosítás nincs alkalmazva.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Zöld: kapcsolódó szolgáltatások vagy feladatok letiltva vagy blokkolva. Szürke: szolgáltatások vagy feladatok engedélyezve vagy változatlanul.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Zöld: rendszermódosítás alkalmazva. Szürke: rendszermódosítás nincs alkalmazva.</v:String>
     <v:String x:Key="btn_default">Alapértelmezett</v:String>
     <v:String x:Key="btn_change">Módosítás</v:String>
     

@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Açıklamasını görmek için farenizi herhangi bir ayarın üzerine getirin</v:String>
     <v:String x:Key="defaultDescriptionApp">Adını görmek için farenizi herhangi bir uygulamanın simgesi üzerine getirin</v:String>
+    <v:String x:Key="toggleStateLegend">Yeşil: ayar uygulandı. Gri: ayar uygulanmadı.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Yeşil: gizlilik ayarı uygulandı; toplama veya izleme engellendi. Gri: ayar uygulanmadı.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Yeşil: arayüz ayarı uygulandı. Gri: arayüz ayarı uygulanmadı.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Yeşil: ilgili hizmetler veya görevler devre dışı ya da engelli. Gri: hizmetler veya görevler etkin ya da değişmedi.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Yeşil: sistem ayarı uygulandı. Gri: sistem ayarı uygulanmadı.</v:String>
     <v:String x:Key="btn_default">Varsayılan</v:String>
     <v:String x:Key="btn_change">Değiştir</v:String>
     

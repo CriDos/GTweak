@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Passa il mouse su una modifica per visualizzarne la descrizione</v:String>
     <v:String x:Key="defaultDescriptionApp">Passa il mouse sull'icona di un'applicazione per vedere il suo nome</v:String>
+    <v:String x:Key="toggleStateLegend">Verde: modifica applicata. Grigio: modifica non applicata.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Verde: modifica privacy applicata; raccolta o tracciamento bloccati. Grigio: modifica non applicata.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Verde: modifica interfaccia applicata. Grigio: modifica interfaccia non applicata.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Verde: servizi o attività correlate disabilitati o bloccati. Grigio: servizi o attività abilitati o invariati.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Verde: modifica sistema applicata. Grigio: modifica sistema non applicata.</v:String>
     <v:String x:Key="btn_default">Predefinito</v:String>
     <v:String x:Key="btn_change">Modifica</v:String>
     

@@ -111,7 +111,7 @@ namespace GTweak.Utilities.Helpers
         internal static bool CheckValue(string subKey, string valueName, string expectedValue, bool invert = false)
         {
             string value = Registry.GetValue(subKey, valueName, null)?.ToString();
-            bool result = !string.Equals(value, expectedValue, StringComparison.OrdinalIgnoreCase);
+            bool result = string.Equals(value, expectedValue, StringComparison.OrdinalIgnoreCase);
             return invert ? !result : result;
         }
 
@@ -119,10 +119,10 @@ namespace GTweak.Utilities.Helpers
         {
             if (!(Registry.GetValue(subkey, valueName, null) is byte[]))
             {
-                return true;
+                return false;
             }
 
-            return string.Concat(Registry.GetValue(subkey, valueName, null) as byte[] ?? Array.Empty<byte>()) != expectedValue;
+            return string.Concat(Registry.GetValue(subkey, valueName, null) as byte[] ?? Array.Empty<byte>()) == expectedValue;
         }
 
         internal static T GetValue<T>(string subKey, string valueName, T defaultValue)

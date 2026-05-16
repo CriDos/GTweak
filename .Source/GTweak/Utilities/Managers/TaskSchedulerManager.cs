@@ -36,6 +36,12 @@ namespace GTweak.Utilities.Managers
             return false;
         }
 
+        internal static bool AreExistingTasksDisabled(params string[] tasklist)
+        {
+            string[] existingTasks = GetExistingTasks(tasklist);
+            return existingTasks.Length != 0 && !IsTaskEnabled(existingTasks);
+        }
+
         internal static void SetTaskState(bool state, params string[] tasklist)
         {
             Task.Run(delegate

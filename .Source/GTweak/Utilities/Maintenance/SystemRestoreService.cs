@@ -20,7 +20,7 @@ namespace GTweak.Utilities.Maintenance
         private readonly ManagementClass _restorePoint = new ManagementClass(new ManagementScope(@"\\localhost\root\default"), new ManagementPath("SystemRestore"), new ObjectGetOptions());
         private ManagementBaseObject _inParams, _outParams;
 
-        internal bool IsPointCreationAllowed => RegistryHelp.CheckValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore", "RPSessionInterval", "0");
+        internal bool IsPointCreationAllowed => RegistryHelp.CheckValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore", "RPSessionInterval", "0", true);
 
         internal void CreateRestorePoint()
         {

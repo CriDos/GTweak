@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Hover your mouse over any tweak to get its description</v:String>
     <v:String x:Key="defaultDescriptionApp">Hover your mouse over the icon of any application to see its name</v:String>
+    <v:String x:Key="toggleStateLegend">Green: tweak applied. Gray: tweak not applied.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Green: privacy tweak applied; collection or tracking is blocked. Gray: tweak not applied.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Green: interface tweak applied. Gray: interface tweak not applied.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Green: related services or tasks are disabled or blocked. Gray: services or tasks are enabled or unchanged.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Green: system tweak applied. Gray: system tweak not applied.</v:String>
     <v:String x:Key="btn_default">Default</v:String>
     <v:String x:Key="btn_change">Change</v:String>
     
@@ -460,7 +465,7 @@
     <v:String x:Key="tgl15_sys">Slowing down Windows startup and program startup</v:String>
     <v:String x:Key="tgl16_sys">Usage history for the Quick Access Toolbar</v:String>
     <v:String x:Key="tgl17_sys">Autorun removable media</v:String>
-    <v:String x:Key="tgl18_sys">Use the default power plan</v:String>
+    <v:String x:Key="tgl18_sys">Use the Ultimate Performance power plan</v:String>
     <v:String x:Key="tgl19_sys">Use the function «Bluetooth and devices»</v:String>
     <v:String x:Key="tgl20_sys">Windows Defender Firewall</v:String>
     <v:String x:Key="tgl21_sys">Use the function «Game mode»</v:String>
