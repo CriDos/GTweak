@@ -37,6 +37,10 @@
 </div>
 
 ---
+<h2> UX rework version</h2>
+
+This fork focuses on making GTweak easier to understand before you click anything. Toggle states were reworked so the UI shows the state of the tweak itself: green means the tweak is applied, gray means it is not applied. The description panel now also explains what that means for each section, for example services, privacy, interface, or system tweaks. The goal is to remove the old ambiguity where an enabled toggle could be read as either enabling a Windows feature or applying a tweak that disables it.
+
 <h2> A wide range of functions, including: 🔩</h2>
 
 ```java

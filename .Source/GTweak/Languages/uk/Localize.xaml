@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Наведіть вказівник миші на будь-яке налаштування, щоб отримати його опис</v:String>
     <v:String x:Key="defaultDescriptionApp">Наведіть вказівник миші на піктограму будь-якого додатку, щоб отримати його назву</v:String>
+    <v:String x:Key="toggleStateLegend">Зелений: твік застосовано. Сірий: твік не застосовано.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Зелений: твік приватності застосовано, збір або відстеження заблоковано. Сірий: твік не застосовано.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Зелений: твік інтерфейсу застосовано. Сірий: твік інтерфейсу не застосовано.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Зелений: пов'язані служби або завдання вимкнено чи заблоковано. Сірий: служби або завдання увімкнено чи не змінено.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Зелений: системний твік застосовано. Сірий: системний твік не застосовано.</v:String>
     <v:String x:Key="btn_default">За замовчуванням</v:String>
     <v:String x:Key="btn_change">Змінити</v:String>
     

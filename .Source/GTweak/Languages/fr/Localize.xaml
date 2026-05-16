@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Survolez une modification avec votre souris pour obtenir sa description</v:String>
     <v:String x:Key="defaultDescriptionApp">Survolez l'icône d'une application pour voir son nom</v:String>
+    <v:String x:Key="toggleStateLegend">Vert : modification appliquée. Gris : modification non appliquée.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Vert : modification de confidentialité appliquée ; la collecte ou le suivi est bloqué. Gris : modification non appliquée.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Vert : modification de l'interface appliquée. Gris : modification de l'interface non appliquée.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Vert : services ou tâches liés désactivés ou bloqués. Gris : services ou tâches activés ou inchangés.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Vert : modification système appliquée. Gris : modification système non appliquée.</v:String>
     <v:String x:Key="btn_default">Par défaut</v:String>
     <v:String x:Key="btn_change">Modifier</v:String>
     

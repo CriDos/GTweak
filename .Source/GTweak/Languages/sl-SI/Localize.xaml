@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Premaknite miško nad poljuben popravek za opis</v:String>
     <v:String x:Key="defaultDescriptionApp">Premaknite miško nad ikono poljubne aplikacije, da vidite njeno ime</v:String>
+    <v:String x:Key="toggleStateLegend">Zeleno: popravek je uporabljen. Sivo: popravek ni uporabljen.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Zeleno: popravek zasebnosti je uporabljen; zbiranje ali sledenje je blokirano. Sivo: popravek ni uporabljen.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Zeleno: popravek vmesnika je uporabljen. Sivo: popravek vmesnika ni uporabljen.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Zeleno: povezane storitve ali opravila so onemogočena ali blokirana. Sivo: storitve ali opravila so omogočena ali nespremenjena.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Zeleno: sistemski popravek je uporabljen. Sivo: sistemski popravek ni uporabljen.</v:String>
     <v:String x:Key="btn_default">Privzeto</v:String>
     <v:String x:Key="btn_change">Spremeni</v:String>
     

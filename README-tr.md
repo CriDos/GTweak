@@ -37,6 +37,10 @@
 </div>
 
 ---
+<h2> UX rework sürümü</h2>
+
+Bu fork sürümü, herhangi bir ayarı uygulamadan önce GTweak'i daha anlaşılır hale getirir. Anahtarların mantığı, Windows özelliğinin durumunu değil ayarın kendisinin durumunu gösterecek şekilde yeniden düzenlendi: yeşil ayarın uygulandığı, gri ise uygulanmadığı anlamına gelir. Açıklama paneli artık servisler, gizlilik, arayüz ve sistem ayarları gibi her bölüm için bunun ne anlama geldiğini ayrı ayrı açıklar. Amaç, açık bir anahtarın hem bir Windows özelliğini açmak hem de o özelliği kapatan bir ayarı uygulamak gibi anlaşılabildiği eski belirsizliği ortadan kaldırmaktır.
+
 <h2> Geniş kapsamlı özellikler, bunlardan bazıları: 🔩</h2>
 
 ```java

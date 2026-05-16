@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">העבר את העכבר מעל טוויק כלשהו כדי לקבל את תיאורו</v:String>
     <v:String x:Key="defaultDescriptionApp">העבר את העכבר מעל הסמל של אפליקציה כלשהי כדי לראות את שמה</v:String>
+    <v:String x:Key="toggleStateLegend">ירוק: הטוויק הוחל. אפור: הטוויק לא הוחל.</v:String>
+    <v:String x:Key="toggleStateLegendConf">ירוק: טוויק פרטיות הוחל; איסוף או מעקב נחסמו. אפור: הטוויק לא הוחל.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">ירוק: טוויק ממשק הוחל. אפור: טוויק ממשק לא הוחל.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">ירוק: שירותים או משימות קשורים הושבתו או נחסמו. אפור: שירותים או משימות פעילים או ללא שינוי.</v:String>
+    <v:String x:Key="toggleStateLegendSys">ירוק: טוויק מערכת הוחל. אפור: טוויק מערכת לא הוחל.</v:String>
     <v:String x:Key="btn_default">ברירת מחדל</v:String>
     <v:String x:Key="btn_change">שינוי</v:String>
 

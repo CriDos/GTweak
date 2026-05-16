@@ -37,6 +37,10 @@
 </div>
 
 ---
+<h2> UX rework verzió</h2>
+
+Ez a fork-verzió érthetőbbé teszi a GTweak használatát, mielőtt bármilyen módosítást alkalmaznál. A kapcsolók logikája úgy lett átdolgozva, hogy a felület magának a módosításnak az állapotát mutassa: a zöld azt jelenti, hogy a tweak alkalmazva van, a szürke pedig azt, hogy nincs alkalmazva. A leíró panel most külön jelmagyarázatot ad az egyes oldalakhoz, például a szolgáltatásokhoz, az adatvédelemhez, a felülethez és a rendszerbeállításokhoz. A cél a régi kétértelműség megszüntetése, amikor egy bekapcsolt kapcsoló jelenthette egy Windows-funkció bekapcsolását vagy éppen egy azt kikapcsoló tweak alkalmazását is.
+
 <h2> Funkciók széles skálája, beleértve a következőket: 🔩</h2>
 
 ```java

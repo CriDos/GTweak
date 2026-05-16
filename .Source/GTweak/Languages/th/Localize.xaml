@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">เลื่อนเมาส์ไปวางเหนือการปรับแต่งใดๆ เพื่อดูคำอธิบาย</v:String>
     <v:String x:Key="defaultDescriptionApp">เลื่อนเมาส์ไปวางเหนือไอคอนของแอปพลิเคชันใดๆ เพื่อดูชื่อของแอปพลิเคชันนั้น</v:String>
+    <v:String x:Key="toggleStateLegend">สีเขียว: ใช้ทวีคแล้ว สีเทา: ยังไม่ได้ใช้ทวีค</v:String>
+    <v:String x:Key="toggleStateLegendConf">สีเขียว: ใช้ทวีคความเป็นส่วนตัวแล้ว การเก็บข้อมูลหรือการติดตามถูกบล็อก สีเทา: ยังไม่ได้ใช้ทวีค</v:String>
+    <v:String x:Key="toggleStateLegendIntf">สีเขียว: ใช้ทวีคส่วนติดต่อแล้ว สีเทา: ยังไม่ได้ใช้ทวีคส่วนติดต่อ</v:String>
+    <v:String x:Key="toggleStateLegendSvc">สีเขียว: บริการหรืองานที่เกี่ยวข้องถูกปิดใช้งานหรือบล็อก สีเทา: บริการหรืองานเปิดอยู่หรือไม่เปลี่ยนแปลง</v:String>
+    <v:String x:Key="toggleStateLegendSys">สีเขียว: ใช้ทวีคระบบแล้ว สีเทา: ยังไม่ได้ใช้ทวีคระบบ</v:String>
     <v:String x:Key="btn_default">ค่าเริ่มต้น</v:String>
     <v:String x:Key="btn_change">เปลี่ยน</v:String>
     

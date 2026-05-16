@@ -37,6 +37,10 @@
 </div>
 
 ---
+<h2> Versão UX rework</h2>
+
+Esta versão do fork torna o GTweak mais claro antes de aplicar qualquer ajuste. A lógica dos botões foi retrabalhada para mostrar o estado do próprio ajuste: verde significa que o ajuste foi aplicado, cinza significa que ele não foi aplicado. O painel de descrição agora explica o significado em cada seção, como serviços, privacidade, interface ou configurações do sistema. O objetivo é remover a antiga ambiguidade em que um botão ligado podia parecer tanto a ativação de um recurso do Windows quanto a aplicação de um ajuste que desativa esse recurso.
+
 <h2> Uma ampla variedade de funções, incluindo: 🔩</h2>
 
 ```java

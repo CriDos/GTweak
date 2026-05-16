@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">将鼠标悬停在任何微调项目上即可查看其说明</v:String>
     <v:String x:Key="defaultDescriptionApp">将鼠标悬停在任何应用程序的图标上，即可查看其名称</v:String>
+    <v:String x:Key="toggleStateLegend">绿色：微调已应用。灰色：微调未应用。</v:String>
+    <v:String x:Key="toggleStateLegendConf">绿色：隐私微调已应用，收集或跟踪已阻止。灰色：微调未应用。</v:String>
+    <v:String x:Key="toggleStateLegendIntf">绿色：界面微调已应用。灰色：界面微调未应用。</v:String>
+    <v:String x:Key="toggleStateLegendSvc">绿色：相关服务或任务已禁用或阻止。灰色：服务或任务已启用或未更改。</v:String>
+    <v:String x:Key="toggleStateLegendSys">绿色：系统微调已应用。灰色：系统微调未应用。</v:String>
     <v:String x:Key="btn_default">默认</v:String>
     <v:String x:Key="btn_change">更改</v:String>
     

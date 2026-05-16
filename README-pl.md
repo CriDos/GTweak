@@ -38,6 +38,10 @@
 
 ---
 
+<h2> Wersja UX rework</h2>
+
+Ta wersja forka sprawia, że GTweak jest czytelniejszy przed zastosowaniem zmian. Logika przełączników została przerobiona tak, aby interfejs pokazywał stan samej poprawki: zielony oznacza, że poprawka jest zastosowana, a szary, że nie jest zastosowana. Panel opisu wyjaśnia teraz znaczenie przełączników osobno dla każdej sekcji, na przykład usług, prywatności, interfejsu i ustawień systemu. Celem jest usunięcie starej niejednoznaczności, w której włączony przełącznik można było rozumieć zarówno jako włączenie funkcji Windows, jak i zastosowanie poprawki, która ją wyłącza.
+
 <h2> Szeroki zakres funkcji, w tym: 🔩</h2>
 
 ```java

@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Najedź kursorem myszy na dowolną poprawkę, aby zobaczyć jej opis</v:String>
     <v:String x:Key="defaultDescriptionApp">Najedź kursorem myszy na ikonę dowolnej aplikacji, aby zobaczyć jej nazwę</v:String>
+    <v:String x:Key="toggleStateLegend">Zielony: poprawka zastosowana. Szary: poprawka niezastosowana.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Zielony: poprawka prywatności zastosowana; zbieranie danych lub śledzenie zablokowane. Szary: poprawka niezastosowana.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Zielony: poprawka interfejsu zastosowana. Szary: poprawka interfejsu niezastosowana.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Zielony: powiązane usługi lub zadania wyłączone albo zablokowane. Szary: usługi lub zadania włączone albo bez zmian.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Zielony: poprawka systemowa zastosowana. Szary: poprawka systemowa niezastosowana.</v:String>
     <v:String x:Key="btn_default">Domyślne</v:String>
     <v:String x:Key="btn_change">Zmień</v:String>
     

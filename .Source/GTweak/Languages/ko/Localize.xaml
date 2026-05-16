@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">조정 사항 위에 마우스를 가져가면 설명이 표시됩니다</v:String>
     <v:String x:Key="defaultDescriptionApp">응용 프로그램의 아이콘 위에 마우스를 가져가면 이름을 확인할 수 있습니다</v:String>
+    <v:String x:Key="toggleStateLegend">녹색: 트윅 적용됨. 회색: 트윅 적용 안 됨.</v:String>
+    <v:String x:Key="toggleStateLegendConf">녹색: 개인 정보 트윅 적용됨; 수집 또는 추적 차단됨. 회색: 트윅 적용 안 됨.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">녹색: 인터페이스 트윅 적용됨. 회색: 인터페이스 트윅 적용 안 됨.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">녹색: 관련 서비스 또는 작업 비활성화/차단됨. 회색: 서비스 또는 작업 활성화 또는 변경 없음.</v:String>
+    <v:String x:Key="toggleStateLegendSys">녹색: 시스템 트윅 적용됨. 회색: 시스템 트윅 적용 안 됨.</v:String>
     <v:String x:Key="btn_default">기본값</v:String>
     <v:String x:Key="btn_change">변경</v:String>
     

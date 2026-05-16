@@ -37,6 +37,10 @@
 </div>
 
 ---
+<h2> Version UX rework</h2>
+
+Cette version du fork rend GTweak plus clair avant d'appliquer un tweak. La logique des interrupteurs a été retravaillée pour afficher l'état du tweak lui-même : vert signifie que le tweak est appliqué, gris signifie qu'il ne l'est pas. Le panneau de description explique maintenant ce que cela signifie pour chaque section, par exemple les services, la confidentialité, l'interface ou les réglages système. L'objectif est de supprimer l'ancienne ambiguïté où un interrupteur activé pouvait être compris comme l'activation d'une fonction Windows ou comme l'application d'un tweak qui la désactive.
+
 <h2> Une large gamme de fonctions, incluant : 🔩</h2>
 
 ```java

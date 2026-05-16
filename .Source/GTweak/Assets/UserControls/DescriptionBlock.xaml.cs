@@ -23,6 +23,15 @@ namespace GTweak.Assets.UserControls
         public static readonly DependencyProperty DefaultTextProperty =
             DependencyProperty.Register("DefaultText", typeof(string), typeof(DescriptionBlock), new UIPropertyMetadata(string.Empty));
 
+        internal string LegendText
+        {
+            get => (string)GetValue(LegendTextProperty);
+            set => SetValue(LegendTextProperty, value);
+        }
+
+        public static readonly DependencyProperty LegendTextProperty =
+            DependencyProperty.Register("LegendText", typeof(string), typeof(DescriptionBlock), new UIPropertyMetadata(string.Empty, OnLegendTextChanged));
+
         internal string Text
         {
             get => FunctionDescription?.Text ?? string.Empty;
@@ -51,10 +60,12 @@ namespace GTweak.Assets.UserControls
         public DescriptionBlock()
         {
             InitializeComponent();
+            UpdateLegendVisibility();
 
             Loaded += delegate
             {
                 App.LanguageChanged += OnLanguageChanged;
+                UpdateLegendVisibility();
 
                 if (FunctionDescription != null)
                 {
@@ -73,10 +84,27 @@ namespace GTweak.Assets.UserControls
         private void OnLanguageChanged(object sender, EventArgs e)
         {
             _scrollCts?.Cancel();
+            UpdateLegendVisibility();
             if (FunctionDescription != null)
             {
                 UpdateFlowDirection();
                 TypewriterAnimation.Create(DefaultText, FunctionDescription, TimeSpan.Zero);
+            }
+        }
+
+        private static void OnLegendTextChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is DescriptionBlock descriptionBlock)
+            {
+                descriptionBlock.UpdateLegendVisibility();
+            }
+        }
+
+        private void UpdateLegendVisibility()
+        {
+            if (ToggleStateLegendPanel != null)
+            {
+                ToggleStateLegendPanel.Visibility = string.IsNullOrWhiteSpace(LegendText) ? Visibility.Collapsed : Visibility.Visible;
             }
         }
 
@@ -86,9 +114,21 @@ namespace GTweak.Assets.UserControls
             {
                 try
                 {
-                    FunctionDescription.FlowDirection = CultureInfo.GetCultureInfo(SettingsEngine.Language).TextInfo.IsRightToLeft ? FlowDirection.RightToLeft : FlowDirection.LeftToRight;
+                    FlowDirection flowDirection = CultureInfo.GetCultureInfo(SettingsEngine.Language).TextInfo.IsRightToLeft ? FlowDirection.RightToLeft : FlowDirection.LeftToRight;
+                    FunctionDescription.FlowDirection = flowDirection;
+                    if (ToggleStateLegend != null)
+                    {
+                        ToggleStateLegend.FlowDirection = flowDirection;
+                    }
                 }
-                catch (CultureNotFoundException) { FunctionDescription.FlowDirection = FlowDirection.LeftToRight; }
+                catch (CultureNotFoundException)
+                {
+                    FunctionDescription.FlowDirection = FlowDirection.LeftToRight;
+                    if (ToggleStateLegend != null)
+                    {
+                        ToggleStateLegend.FlowDirection = FlowDirection.LeftToRight;
+                    }
+                }
             }
         }
 

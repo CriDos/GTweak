@@ -4,6 +4,11 @@
 
     <v:String x:Key="defaultDescription">Наведите указатель мыши на любой твик, чтобы получить его описание</v:String>
     <v:String x:Key="defaultDescriptionApp">Наведите указатель мыши на иконку любого приложения, чтобы получить его название</v:String>
+    <v:String x:Key="toggleStateLegend">Зелёный: твик применён. Серый: твик не применён.</v:String>
+    <v:String x:Key="toggleStateLegendConf">Зелёный: твик приватности применён, сбор или слежение заблокированы. Серый: твик не применён.</v:String>
+    <v:String x:Key="toggleStateLegendIntf">Зелёный: твик интерфейса применён. Серый: твик интерфейса не применён.</v:String>
+    <v:String x:Key="toggleStateLegendSvc">Зелёный: связанные службы или задачи отключены/заблокированы. Серый: службы или задачи включены либо не изменены.</v:String>
+    <v:String x:Key="toggleStateLegendSys">Зелёный: системный твик применён. Серый: системный твик не применён.</v:String>
     <v:String x:Key="btn_default">По умолчанию</v:String>
     <v:String x:Key="btn_change">Изменить</v:String>
     
@@ -460,7 +465,7 @@
     <v:String x:Key="tgl15_sys">Замедления запуска Windows и запуска программ</v:String>
     <v:String x:Key="tgl16_sys">История использования для панели быстрого доступа</v:String>
     <v:String x:Key="tgl17_sys">Автозапуск съёмных носителей</v:String>
-    <v:String x:Key="tgl18_sys">Использовать обычную схему электропитания</v:String>
+    <v:String x:Key="tgl18_sys">Использовать схему «Максимальная производительность»</v:String>
     <v:String x:Key="tgl19_sys">Использовать функцию «Bluetooth и устройства»</v:String>
     <v:String x:Key="tgl20_sys">Брандмауэр Защитника Windows</v:String>
     <v:String x:Key="tgl21_sys">Использовать функцию «Игровой режим»</v:String>
